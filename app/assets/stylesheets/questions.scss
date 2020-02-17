@@ -1,0 +1,30 @@
+// Place all the styles related to the questions controller here.
+
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+   .title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .container{
+    background-color: #010a43; /* Remove background fill */
+    border-radius: 0; /* Remove corner curve */
+    border: 2px solid #fff; /* 2px white border */
+    color: white; /* White text */
+    height: 190px; /* Increase input height */
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align: center;
+    padding: 4px, 4px;
+   }
+
+  .button {
+    text-transform: uppercase;
+    padding: 10px 60px;
+    color: white;
+    background: #ff9d9d;
+    font-weight: normal;
+  }
